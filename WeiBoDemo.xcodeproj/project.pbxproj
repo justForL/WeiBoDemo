@@ -13,6 +13,17 @@
 		1818D4F01CF937AB000A539E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1818D4EE1CF937AB000A539E /* Main.storyboard */; };
 		1818D4F21CF937AB000A539E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1818D4F11CF937AB000A539E /* Assets.xcassets */; };
 		1818D4F51CF937AB000A539E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1818D4F31CF937AB000A539E /* LaunchScreen.storyboard */; };
+		1818D5021CF938EE000A539E /* ModalController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1818D5011CF938EE000A539E /* ModalController.m */; };
+		1818D5061CF93C6F000A539E /* 123.png in Resources */ = {isa = PBXBuildFile; fileRef = 1818D5051CF93C6F000A539E /* 123.png */; };
+		1818D5091CF94440000A539E /* ModalItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1818D5081CF94440000A539E /* ModalItem.m */; };
+		1818D5141CF94C7C000A539E /* addMatters@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1818D50B1CF94C7C000A539E /* addMatters@2x.png */; };
+		1818D5151CF94C7C000A539E /* addMatters@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1818D50C1CF94C7C000A539E /* addMatters@3x.png */; };
+		1818D5161CF94C7C000A539E /* addSchedule@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1818D50D1CF94C7C000A539E /* addSchedule@2x.png */; };
+		1818D5171CF94C7C000A539E /* addSchedule@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1818D50E1CF94C7C000A539E /* addSchedule@3x.png */; };
+		1818D5191CF94C7C000A539E /* searchContacts@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1818D5101CF94C7C000A539E /* searchContacts@2x.png */; };
+		1818D51A1CF94C7C000A539E /* searchContacts@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1818D5111CF94C7C000A539E /* searchContacts@3x.png */; };
+		1818D51B1CF94C7C000A539E /* setupChat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1818D5121CF94C7C000A539E /* setupChat@2x.png */; };
+		1818D51C1CF94C7C000A539E /* setupChat@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1818D5131CF94C7C000A539E /* setupChat@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,19 @@
 		1818D4F11CF937AB000A539E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1818D4F41CF937AB000A539E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1818D4F61CF937AB000A539E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1818D5001CF938EE000A539E /* ModalController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalController.h; sourceTree = "<group>"; };
+		1818D5011CF938EE000A539E /* ModalController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalController.m; sourceTree = "<group>"; };
+		1818D5051CF93C6F000A539E /* 123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 123.png; sourceTree = "<group>"; };
+		1818D5071CF94440000A539E /* ModalItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalItem.h; sourceTree = "<group>"; };
+		1818D5081CF94440000A539E /* ModalItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalItem.m; sourceTree = "<group>"; };
+		1818D50B1CF94C7C000A539E /* addMatters@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addMatters@2x.png"; sourceTree = "<group>"; };
+		1818D50C1CF94C7C000A539E /* addMatters@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addMatters@3x.png"; sourceTree = "<group>"; };
+		1818D50D1CF94C7C000A539E /* addSchedule@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addSchedule@2x.png"; sourceTree = "<group>"; };
+		1818D50E1CF94C7C000A539E /* addSchedule@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addSchedule@3x.png"; sourceTree = "<group>"; };
+		1818D5101CF94C7C000A539E /* searchContacts@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchContacts@2x.png"; sourceTree = "<group>"; };
+		1818D5111CF94C7C000A539E /* searchContacts@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchContacts@3x.png"; sourceTree = "<group>"; };
+		1818D5121CF94C7C000A539E /* setupChat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setupChat@2x.png"; sourceTree = "<group>"; };
+		1818D5131CF94C7C000A539E /* setupChat@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setupChat@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +82,14 @@
 		1818D4E41CF937AB000A539E /* WeiBoDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1818D5051CF93C6F000A539E /* 123.png */,
+				1818D4FC1CF93862000A539E /* Class */,
 				1818D4E81CF937AB000A539E /* AppDelegate.h */,
 				1818D4E91CF937AB000A539E /* AppDelegate.m */,
 				1818D4EB1CF937AB000A539E /* ViewController.h */,
 				1818D4EC1CF937AB000A539E /* ViewController.m */,
 				1818D4EE1CF937AB000A539E /* Main.storyboard */,
+				1818D50A1CF94C7C000A539E /* Resources */,
 				1818D4F11CF937AB000A539E /* Assets.xcassets */,
 				1818D4F31CF937AB000A539E /* LaunchScreen.storyboard */,
 				1818D4F61CF937AB000A539E /* Info.plist */,
@@ -77,6 +104,32 @@
 				1818D4E61CF937AB000A539E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1818D4FC1CF93862000A539E /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				1818D5001CF938EE000A539E /* ModalController.h */,
+				1818D5011CF938EE000A539E /* ModalController.m */,
+				1818D5071CF94440000A539E /* ModalItem.h */,
+				1818D5081CF94440000A539E /* ModalItem.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		1818D50A1CF94C7C000A539E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1818D50B1CF94C7C000A539E /* addMatters@2x.png */,
+				1818D50C1CF94C7C000A539E /* addMatters@3x.png */,
+				1818D50D1CF94C7C000A539E /* addSchedule@2x.png */,
+				1818D50E1CF94C7C000A539E /* addSchedule@3x.png */,
+				1818D5101CF94C7C000A539E /* searchContacts@2x.png */,
+				1818D5111CF94C7C000A539E /* searchContacts@3x.png */,
+				1818D5121CF94C7C000A539E /* setupChat@2x.png */,
+				1818D5131CF94C7C000A539E /* setupChat@3x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +191,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				1818D4F51CF937AB000A539E /* LaunchScreen.storyboard in Resources */,
+				1818D5141CF94C7C000A539E /* addMatters@2x.png in Resources */,
+				1818D5161CF94C7C000A539E /* addSchedule@2x.png in Resources */,
+				1818D5151CF94C7C000A539E /* addMatters@3x.png in Resources */,
+				1818D51A1CF94C7C000A539E /* searchContacts@3x.png in Resources */,
+				1818D51B1CF94C7C000A539E /* setupChat@2x.png in Resources */,
 				1818D4F21CF937AB000A539E /* Assets.xcassets in Resources */,
+				1818D51C1CF94C7C000A539E /* setupChat@3x.png in Resources */,
 				1818D4F01CF937AB000A539E /* Main.storyboard in Resources */,
+				1818D5171CF94C7C000A539E /* addSchedule@3x.png in Resources */,
+				1818D5061CF93C6F000A539E /* 123.png in Resources */,
+				1818D5191CF94C7C000A539E /* searchContacts@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,7 +213,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1818D4ED1CF937AB000A539E /* ViewController.m in Sources */,
+				1818D5021CF938EE000A539E /* ModalController.m in Sources */,
 				1818D4EA1CF937AB000A539E /* AppDelegate.m in Sources */,
+				1818D5091CF94440000A539E /* ModalItem.m in Sources */,
 				1818D4E71CF937AB000A539E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
